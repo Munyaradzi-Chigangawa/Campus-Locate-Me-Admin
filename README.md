@@ -1,6 +1,6 @@
 # Campus Locate Me Admin Panel
 
-MSU Navigation web app 
+MSU Navigation admin web app 
 
 # Developed By
 
