@@ -1,6 +1,13 @@
-# admin
+# Campus Locate Me Admin Panel
 
-A new Flutter application.
+MSU Navigation admin web app 
+
+# Developed By
+
+* Munyaradzi Chigangawa 
+ * [Portfolio Site](http://www.munyaradzichigangawa-6e6a3.web.app)
+ * [Instagram](https://www.instagram.com/munyaradzichigangawa/)
+ * [Twitter](https://twitter.com/mchigangawa)
 
 ## Getting Started
 
