@@ -1,15 +1,12 @@
 import 'package:admin/blocs/admin_bloc.dart';
 import 'package:admin/config/config.dart';
 import 'package:admin/pages/admin.dart';
-import 'package:admin/pages/blogs.dart';
 import 'package:admin/pages/data_info.dart';
 import 'package:admin/pages/featured.dart';
 import 'package:admin/pages/notifications.dart';
 import 'package:admin/pages/places.dart';
-import 'package:admin/pages/settings.dart';
 import 'package:admin/pages/sign_in.dart';
 import 'package:admin/pages/states.dart';
-import 'package:admin/pages/upload_blog.dart';
 import 'package:admin/pages/upload_place.dart';
 import 'package:admin/pages/users.dart';
 import 'package:admin/utils/next_screen.dart';
