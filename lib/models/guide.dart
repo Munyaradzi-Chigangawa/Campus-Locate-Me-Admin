@@ -9,7 +9,7 @@ class Guide {
   double startpointLng;
   double endpointLat;
   double endpointLng;
-  String price;
+  //String price;
   List paths;
   
 
@@ -20,7 +20,7 @@ class Guide {
     this.startpointLng,
     this.endpointLat,
     this.endpointLng,
-    this.price,
+    //this.price,
     this.paths
     
     
@@ -36,7 +36,7 @@ class Guide {
        startpointLng: d['startpoint lng'],
        endpointLat: d['endpoint lat'],
        endpointLng: d['endpoint lng'],
-       price: d['price'],
+       //price: d['price'],
        paths: d['paths']
 
 
