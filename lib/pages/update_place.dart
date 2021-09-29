@@ -43,7 +43,7 @@ class _UpdatePlaceState extends State<UpdatePlace> {
 
   var startpointNameCtrl = TextEditingController();
   var endpointNameCtrl = TextEditingController();
-  var priceCtrl = TextEditingController();
+  //var priceCtrl = TextEditingController();
   var startpointLatCtrl = TextEditingController();
   var startpointLngCtrl = TextEditingController();
   var endpointLatCtrl = TextEditingController();
@@ -63,7 +63,7 @@ class _UpdatePlaceState extends State<UpdatePlace> {
     lngCtrl.clear();
     startpointNameCtrl.clear();
     endpointNameCtrl.clear();
-    priceCtrl.clear();
+    //priceCtrl.clear();
     startpointLatCtrl.clear();
     startpointLngCtrl.clear();
     endpointLatCtrl.clear();
@@ -137,7 +137,7 @@ class _UpdatePlaceState extends State<UpdatePlace> {
       'startpoint lng' : double.parse(startpointLngCtrl.text),
       'endpoint lat' : double.parse(endpointLatCtrl.text),
       'endpoint lng' : double.parse(endpointLngCtrl.text),
-      'price': priceCtrl.text,
+      //'price': priceCtrl.text,
       'paths' : paths
     };
 
@@ -158,7 +158,7 @@ class _UpdatePlaceState extends State<UpdatePlace> {
       startpointLngCtrl.text = x['startpoint lng'].toString();
       endpointLatCtrl.text = x['endpoint lat'].toString();
       endpointLngCtrl.text = x['endpoint lng'].toString();
-      priceCtrl.text = x['price'];
+      //priceCtrl.text = x['price'];
       setState(() {
         paths = x['paths'];
       });
@@ -213,7 +213,7 @@ class _UpdatePlaceState extends State<UpdatePlace> {
           double.parse(startpointLngCtrl.text),
           double.parse(endpointLatCtrl.text),
           double.parse(endpointLngCtrl.text),
-          priceCtrl.text,
+          //priceCtrl.text,
           paths
         );
       }else{
@@ -388,17 +388,17 @@ class _UpdatePlaceState extends State<UpdatePlace> {
                 ),
 
                 SizedBox(height: 20,),
-                TextFormField(
-                    decoration: inputDecoration('Enter travel cost', 'Price', priceCtrl),
-                    keyboardType: TextInputType.number,
+                // TextFormField(
+                //     decoration: inputDecoration('Enter travel cost', 'Price', priceCtrl),
+                //     keyboardType: TextInputType.number,
 
-                    controller: priceCtrl,
-                    validator: (value){
-                      if(value.isEmpty) return 'Value is empty'; return null;
-                    },
+                //     controller: priceCtrl,
+                //     validator: (value){
+                //       if(value.isEmpty) return 'Value is empty'; return null;
+                //     },
                     
-                  ),
-                SizedBox(height: 20,),
+                //   ),
+                // SizedBox(height: 20,),
 
                 Row(
                   children: <Widget>[
