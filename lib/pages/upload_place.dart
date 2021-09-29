@@ -44,7 +44,7 @@ class _UploadPlaceState extends State<UploadPlace> {
 
   var startpointNameCtrl = TextEditingController();
   var endpointNameCtrl = TextEditingController();
-  var priceCtrl = TextEditingController();
+  //var priceCtrl = TextEditingController();
   var startpointLatCtrl = TextEditingController();
   var startpointLngCtrl = TextEditingController();
   var endpointLatCtrl = TextEditingController();
@@ -64,7 +64,7 @@ class _UploadPlaceState extends State<UploadPlace> {
     lngCtrl.clear();
     startpointNameCtrl.clear();
     endpointNameCtrl.clear();
-    priceCtrl.clear();
+    //priceCtrl.clear();
     startpointLatCtrl.clear();
     startpointLngCtrl.clear();
     endpointLatCtrl.clear();
@@ -163,7 +163,7 @@ class _UploadPlaceState extends State<UploadPlace> {
       'startpoint lng' : double.parse(startpointLngCtrl.text),
       'endpoint lat' : double.parse(endpointLatCtrl.text),
       'endpoint lng' : double.parse(endpointLngCtrl.text),
-      'price': priceCtrl.text,
+      //'price': priceCtrl.text,
       'paths' : paths
     };
 
@@ -194,7 +194,7 @@ class _UploadPlaceState extends State<UploadPlace> {
           double.parse(startpointLngCtrl.text),
           double.parse(endpointLatCtrl.text),
           double.parse(endpointLngCtrl.text),
-          priceCtrl.text,
+         // priceCtrl.text,
           paths
         );
       }else{
