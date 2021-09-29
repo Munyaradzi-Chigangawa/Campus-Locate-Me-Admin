@@ -16,7 +16,7 @@ showPlacePreview(
     double startpointLng,
     double endpointLat,
     double endpointLng,
-    String price,
+    //String price,
     List paths) {
 
   showDialog(
@@ -228,17 +228,17 @@ showPlacePreview(
                       SizedBox(
                         height: 5,
                       ),
-                      RichText(
-                          text: TextSpan(
-                              text: 'Estimated Cost: ',
-                              style: TextStyle(color: Colors.grey),
-                              children: <TextSpan>[
-                            TextSpan(
-                                text: price,
-                                style: TextStyle(
-                                    fontWeight: FontWeight.w700,
-                                    color: Colors.grey[700])),
-                          ])),
+                      // RichText(
+                      //     text: TextSpan(
+                      //         text: 'Estimated Cost: ',
+                      //         style: TextStyle(color: Colors.grey),
+                      //         children: <TextSpan>[
+                      //       TextSpan(
+                      //           text: price,
+                      //           style: TextStyle(
+                      //               fontWeight: FontWeight.w700,
+                      //               color: Colors.grey[700])),
+                      //     ])),
                       SizedBox(
                         height: 15,
                       ),
